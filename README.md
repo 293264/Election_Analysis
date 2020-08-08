@@ -21,7 +21,7 @@ The purpose of this project is to find out which county is the largest based off
 <img width="447" alt="Screen Shot 2020-08-07 at 8 14 24 PM" src="https://user-images.githubusercontent.com/67278193/89697573-b9d65600-d8ea-11ea-9159-2a67c356ea61.png">
 
 #Election Audit Summary
-
+Seeing how our script is able to effectively find votes counts, percentage of votes won by each county and candidate it is safe to assume that we can even figure out what the percentages of each county voted for each candidate. We can do something like this by adding another if statement to under line 76 that will give us a breakdown showing what counties voted for who. This can be used for any future election because it gives us a great breakdown of counties or even states if the data was different.
 
 <img width="389" alt="Screen Shot 2020-08-07 at 8 04 22 PM" src="https://user-images.githubusercontent.com/67278193/89697251-5a2b7b00-d8e9-11ea-8552-337c24a54f22.png">
 
