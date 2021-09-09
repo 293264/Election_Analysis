@@ -1,27 +1,24 @@
-# Election_Analysis
-Finding out voting information for each county using Python
+Election Analysis 
+#Overview of Election Audit: Explain the purpose of this election audit analysis.
+The purpose of the election audit is to support the election commission with additional data to complete the election audit. Per request the election committee would like to know the voter turnout for each county, the percentage of votes from each county out of the total count and the county with the highest turnout. 
 
-#Purpose of the election audit
+#Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 
-The purpose of this project is to find out which county is the largest based off of votes. In module 3 we learned how to read csv files in python and begin to run the data with our coding skills. The data file has 4 columns, we had to search through the one that had all of the candidates and figure out how many votes each candidate recieved. Once we figure out the total votes and percentage of the total that they had we wrote the results to a text file with a winner. In the module 3 challenge we are doing something similar but different. This time we will search through the counties column to figure out the total votes and percentage of each county to find which county is the largest.
+*How many votes were cast in this congressional election?
+According the data, The total number of casted votes in the congressional election was 369,711 
 
-#Election audit results
-#By County
--After the code is finished we are able to find that there is a total of 369,711 votes between 3 counties. 
--Jefferson county had 10.5% of the vote with 38,855 total votes
--Denver had 82.8% of the vote with 306,055 total ballots submitted
--Arapahoe had 6.7% of the total vote with 24,801 ballots submitted 
--Denver had the most amount of votes in the county by commiting 82.8% of the ballots
-#By Candidate
--Charles Casper Stockham(85,213/23%)
--Diana DeGette(272,892/73.8%)
--Raymon Anthony Doane(11,606/3.1%) 
--Diana DeGette won the election recieving 272,892 total votes which was 73.8% of the total votes submitted. 
+*Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+According the data the county of Denver had the largest number of votes with a total of 306,055(82.8%). Jefferson county came in second place with 38,855(10.5%). Finally, Arapahoe County had the least amount of votes with 24,801(6.7%)
 
-<img width="447" alt="Screen Shot 2020-08-07 at 8 14 24 PM" src="https://user-images.githubusercontent.com/67278193/89697573-b9d65600-d8ea-11ea-9159-2a67c356ea61.png">
+*Which county had the largest number of votes?
+According the data Denver County had the largest number of votes with a total of 306,055(82.8%). 
 
-#Election Audit Summary
-Seeing how our script is able to effectively find votes counts, percentage of votes won by each county and candidate it is safe to assume that we can even figure out what the percentages of each county voted for each candidate. We can do something like this by adding another if statement to under line 76 that will give us a breakdown showing what counties voted for who. This can be used for any future election because it gives us a great breakdown of counties or even states if the data was different.
+*Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+According to the data, Diana DeGette led all candidates with 73.8% (272,892) of all votes. In second place was Charles Casper Stockham with 23.0% (85,213) of all votes. Finally, in last place was Raymond Anthony Doane who received just 3.1% (11,606) of all votes.  
 
-<img width="389" alt="Screen Shot 2020-08-07 at 8 04 22 PM" src="https://user-images.githubusercontent.com/67278193/89697251-5a2b7b00-d8e9-11ea-8552-337c24a54f22.png">
+*Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+According to the data the winner of this election was Diana DeGette. Her vote count was 272,892 which is about 74% of all county votes. 
 
+#Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+I strongly advise that the election commission save this script to be utilized for futuer elections. The script has accurately calculated the voter turnout, percentage of votes for each county, the county with the highest turnout and, of course, it was able determine the winning candidate of the congressional election. If need be, modifications can be made to the script. 
+For example, if the commision wishes to add a particutar county to the county listed it could use the append function, i.e >>>>>>counties.append('El Paso"). On the hand if it decided to remove a county it could us the remove function, i.e >>>>counties.remove("Denver"). All in all saving this script will allow for effeicient calculations of ballots submitted, voter turnout, and county data amond other things.  
